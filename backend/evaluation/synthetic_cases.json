@@ -1,0 +1,95 @@
+[
+  {
+    "id": "confidentialite-simple",
+    "type": "page",
+    "segments": [{"numero": 1, "texte": "Les parties s'engagent à protéger toute information confidentielle et à ne pas la divulguer."}],
+    "clauses_attendues": ["Confidentialité"]
+  },
+  {
+    "id": "non-concurrence-simple",
+    "type": "section",
+    "segments": [{"numero": 1, "texte": "Le prestataire accepte une obligation de non-concurrence limitée au marché français."}],
+    "clauses_attendues": ["Non-concurrence"]
+  },
+  {
+    "id": "gouvernance-simple",
+    "type": "page",
+    "segments": [{"numero": 1, "texte": "Le conseil d'administration statue à la majorité simple, sous réserve du quorum."}],
+    "clauses_attendues": ["Gouvernance"]
+  },
+  {
+    "id": "aucune-clause-cible",
+    "type": "page",
+    "segments": [{"numero": 1, "texte": "La facture est payable sous trente jours à compter de sa date d'émission."}],
+    "clauses_attendues": []
+  },
+  {
+    "id": "multi-pages-confidentialite-gouvernance",
+    "type": "page",
+    "segments": [
+      {"numero": 1, "texte": "Toute divulgation d'une information confidentielle exige l'accord écrit de l'autre partie."},
+      {"numero": 2, "texte": "L'assemblée générale exerce ses droits de vote à la majorité qualifiée."}
+    ],
+    "clauses_attendues": ["Confidentialité", "Gouvernance"]
+  },
+  {
+    "id": "confidentialite-secret-affaires",
+    "type": "section",
+    "segments": [{"numero": 4, "texte": "Le bénéficiaire protège tout secret d'affaires et s'interdit de le révéler à un tiers."}],
+    "clauses_attendues": ["Confidentialité"]
+  },
+  {
+    "id": "non-concurrence-activite-concurrente",
+    "type": "page",
+    "segments": [{"numero": 7, "texte": "Pendant douze mois, le vendeur s'abstient de toute activité concurrente sur le territoire convenu."}],
+    "clauses_attendues": ["Non-concurrence"]
+  },
+  {
+    "id": "gouvernance-droits-vote",
+    "type": "section",
+    "segments": [{"numero": 3, "texte": "Les droits de vote sont exercés par les actionnaires ; le quorum est fixé à soixante pour cent."}],
+    "clauses_attendues": ["Gouvernance"]
+  },
+  {
+    "id": "mention-information-publique",
+    "type": "page",
+    "segments": [{"numero": 1, "texte": "Cette brochure publique décrit les horaires du service client et les moyens de paiement."}],
+    "clauses_attendues": []
+  },
+  {
+    "id": "negation-confidentialite",
+    "type": "page",
+    "segments": [{"numero": 2, "texte": "Les parties confirment qu'aucune obligation de confidentialité n'est prévue par le présent accord."}],
+    "clauses_attendues": []
+  },
+  {
+    "id": "negation-non-concurrence",
+    "type": "section",
+    "segments": [{"numero": 5, "texte": "Le contrat ne comporte aucune clause de non-concurrence entre les parties."}],
+    "clauses_attendues": []
+  },
+  {
+    "id": "negation-gouvernance",
+    "type": "page",
+    "segments": [{"numero": 3, "texte": "Les signataires conviennent qu'aucun conseil d'administration ne sera constitué."}],
+    "clauses_attendues": []
+  },
+  {
+    "id": "trois-clauses-deux-sections",
+    "type": "section",
+    "segments": [
+      {"numero": 1, "texte": "Chaque partie respecte une obligation de confidentialité et s'interdit toute divulgation."},
+      {"numero": 2, "texte": "La clause de non-concurrence s'applique pendant six mois. L'assemblée générale décide à la majorité simple."}
+    ],
+    "clauses_attendues": ["Confidentialité", "Non-concurrence", "Gouvernance"]
+  },
+  {
+    "id": "hors-cible-multisections",
+    "type": "section",
+    "segments": [
+      {"numero": 1, "texte": "Le prix est révisé chaque année selon l'indice publié."},
+      {"numero": 2, "texte": "Les notifications sont envoyées par courrier électronique."}
+    ],
+    "clauses_attendues": []
+  }
+]
